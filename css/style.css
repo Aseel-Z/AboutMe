@@ -1,11 +1,19 @@
 * {
     background-color: rgba(194, 152, 90, 0.945);
    color:rgb(61, 17, 17) ;
-   text-align: center;
    padding: auto;
+   margin:auto;
    border: rgb(255, 165, 46);
 }
- 
+#al {text-align: center;} 
+ul {
+    text-align: left ;
+}
+ol {
+    text-align: left;
+}
+
+
 /* div {
     text-align: center} */
  /* h1 { 
