@@ -2,6 +2,8 @@
     background-color: rgba(194, 152, 90, 0.945);
    color:rgb(61, 17, 17) ;
    text-align: center;
+   padding: auto;
+   border: rgb(255, 165, 46);
 }
  
 /* div {
