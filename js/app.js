@@ -83,7 +83,7 @@ while (attempt<5) {
         break; 
        } else {
         attempt++;
-        let genreguess = prompt('What is my favorite movie genres?')
+        prompt('What is my favorite movie genres?')
        }
     }
 }
