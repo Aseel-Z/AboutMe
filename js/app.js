@@ -1,6 +1,12 @@
 'use strict';
-let firstname = prompt('Dear visitor, What is your name? :)')
-alert('Hello ' + firstname + '! ' + 'Welcome to the guessing game! ' + 'Ready for the fun?')
+
+function greeting (firstName) {
+    return ('Hello ' + firstName + '! ' + 'Welcome to the guessing game! ' + 'Ready for the fun?');
+}
+
+let firstName = prompt('Dear visitor, What is your name? :)')
+alert(greeting(firstName))
+
 let score = 0
 
 let hobby = prompt('Do I like reading?(yes/no)')
@@ -89,5 +95,5 @@ while (attempt<5) {
 }
 
 alert('My favorite movie genres are'+ movie)
-alert('Goodbye ' + firstname + ' :) Your Final Score is: ' + score + ' out of 7')  
+alert('Goodbye ' + firstName + ' :) Your Final Score is: ' + score + ' out of 7')  
 alert ('Thank you for your visit!')
